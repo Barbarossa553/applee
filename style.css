@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* 
+
+Global CSS
+
+*/
+
+
+
+.link {
+    color: rgb(121, 121, 247);
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+
+.link span {
+    font-size: 18px;
+}
+
+.link i {
+    font-size: 12px;
+    padding-left: 5px;
+} 
+.link:hover span {
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 200;
+}
+.benner_link {
+    display: flex;
+    justify-content: center;
+}
+
+/* 
+
+
+Main CSS
+
+
+*/
+
+header {
+    width: 100%;
+    height: 40px;
+    background-color: #333333e8;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(10px) saturate(200%);
+}
+
+nav {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+.colletion {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+}
+.item {
+    color: rgb(221, 216, 216);
+    font-size: 12px;
+    font-family: sans-serif ;
+}
+.logo img {
+    width: 20px;
+}
+.lorem {
+    background-color: rgb(248, 50, 50);
+    width: 100%;
+    height: 40px; 
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.benner_top {
+    width: 100%;
+    height: 610px;
+    background-color: #c9def8;
+    
+}
+.benner_img {
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+    width: 80px;
+}
+.benner_top h1 {
+    text-align: center;
+    padding: 18px 0;
+    font-size: 3.5rem;
+}
+.benner_imgContiner {
+    display: flex;
+    justify-content: center;
+}
+.benner_imgContiner img {
+    width: 320px;
+}
+
+.iphon13pro {
+    width: 100%;
+    height: 600px;
+    background: url('./image/hero_iphone_13pro__dhnsegysa42u_large_2x.jpg') no-repeat center/cover;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.iphon13h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: #222;
+    padding-top: 60px;
+}
+.iphon13h3 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+    color: #222;
+    padding: 15px 0;
+}
+.buy {
+    display: flex;
+    justify-content: center;
+}
+.buy i {
+    margin-right: 40px;
+    color: rgb(64, 64, 255); 
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 12px;
+}
+.buy2 {
+    margin-left: 50px;
+}
+.buy a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(64, 64, 255);
+    font-weight: 100;
+}
+.iphon13 {
+    background: url('./image/hero_iphone_13__f194u1rdooeq_large_2x.jpg') no-repeat center/cover;
+    width: 100%;
+    height: 580px;
+    object-fit: cover;
+}
+.iphon13h11 {
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: #fff;
+    padding-top: 60px;
+}
+.iphon13h33 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 200;
+    color: rgb(248, 150, 215);
+    padding: 15px 0;
+}
+
+.buy:hover a {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.mac_air {
+    display: flex;
+    margin-top: 13px;
+}
+.airpostpro {
+    background: url('./image/promo_airpods__cbz50avh6d5y_large_2x.jpg') no-repeat center/cover;
+    width: 49%;
+    height: 580px;
+    margin: auto;
+}
+.holideys {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+    font-size: 2.5rem;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+
+
+.airpots {
+    background: url('./image/tile_airpods__fuv6vgn42y2q_large_2x.jpg') no-repeat center/cover;
+    width: 49%;
+    height: 580px;
+    margin: auto;
+    text-align: center;
+    padding-top: 440px;
+   
+}
+.airpot {
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding: 8px;
+}
+.all {
+    padding-bottom: 12px;
+    font-size: 20px;
+    font-weight: 100;
+}
+.homepod_watch {
+    width: 100%;
+    height: 590px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.homepod {
+    width: 49%;
+    height: 580px;
+    background: url('./image/tile_homepod_mini__b73w4z3ljymu_large_2x.jpg') no-repeat center/cover;
+    margin: auto;
+    margin-top: 13px;
+}
+
+.wotch {
+    width: 49%;
+    height: 580px;
+    background: url('./image/tile_watch__e9n11b6m6yq2_large_2x.jpg') no-repeat center/cover;
+    margin: auto;
+    margin-top: 13px;
+}
+.new {
+    font-size: 12px;
+    color: rgb(238, 62, 70);
+    text-transform: capitalize;
+    padding: 20px 0;
+}
+#apple {
+    font-size: 35px;
+}
+#span {
+    font-size: 30px;
+    font-weight: 600;
+}
+#series {
+    font-size: 15px;
+    color: rgb(221, 68, 94);
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+#have {
+    font-size: 20px;
+    font-weight: 100;
+    padding-bottom: 15px;
+}
+.cart_tv {
+    width: 100%;
+    height: 590%;
+    display: flex;
+}
+.cart {
+    width: 49%;
+    height: 580px;
+    background: url('./image/tile__cauwwcyyn9hy_large_2x.jpg') no-repeat center/cover;
+    margin: auto;
+}
+
+.cart {
+    text-align: center;
+    padding-top: 70px;
+}
+#get {
+    width: 50%;
+    font-size: 20px;
+    font-weight: 100;
+    margin: auto;
+    padding: 15px;
+}
+
+.tv {
+    width: 49%;
+    height: 580px;
+    background: url('./image/promo_charlie__fm6z3ta4w72a_large_2x.jpg') no-repeat center/cover;
+    margin: auto;
+    text-align: center;
+
+}
+.tvlar{
+    font-size: 38px;
+    padding-top: 100px;
+}
+.div {
+    padding: 35px;
+}
+#cherlei {
+    padding-top: 260px;
+    width: 60%;
+    margin: auto;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.container {
+    width: 100%;
+    height: 59px;
+    background-color: rgb(241, 244, 245);
+    margin-top: 13px;
+    padding-top: 13px;
+}
+.offer {
+    width: 80%;
+    margin: auto;
+    font-size: 12px;
+    color: rgb(119, 118, 118);
+    line-height: 1.4;
+}
